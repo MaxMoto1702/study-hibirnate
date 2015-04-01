@@ -40,6 +40,18 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
         </dependency>
+        <!--Hibernate-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>4.3.8.Final</version>
+        </dependency>
+        <!--AS400Driver-->
+        <dependency>
+            <groupId>net.sf.jt400</groupId>
+            <artifactId>jt400</artifactId>
+            <version>6.7</version>
+        </dependency>
     </dependencies>
     <build>
         <resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!--<hibernate-mapping>-->
+<hibernate-mapping package="org.hibernate.tutorial.domain">
+    <class name="com.rstyle.maxmoto1702.iseries.Account" table="CENTDB.PRSNACCT">
+        <id column="INSNMB" name="insnmb" type="java.lang.Long"/>
+        <property column="INSCND" name="inscnd" type="java.lang.String"/>
+        <property column="INSNMB_OWN" name="insnmbOwn" type="java.lang.Long"/>
+        <property column="INSDTH" name="insdth" type="java.util.Date"/>
+        <property column="INSLOC" name="insloc" type="java.lang.Integer"/>
+    </class>
+</hibernate-mapping>
